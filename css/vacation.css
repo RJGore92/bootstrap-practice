@@ -1,0 +1,67 @@
+.jcustom-one {
+  background-image: radial-gradient(at bottom, mediumaquamarine, lime, gold);
+}
+
+.panel-default > .panel-hcustom-one {
+  background-image: linear-gradient(to right, mediumaquamarine, lime, gold);
+}
+
+.review-row {
+  background-color: gainsboro;
+}
+
+.review-col {
+  padding: 20px;
+  background-clip: content-box;
+  background-color: white;
+}
+
+div .package {
+  border-style: inset;
+  border-width: 3px;
+  border-color: whitesmoke;
+  background-clip: content-box;
+  background-color: whitesmoke;
+}
+
+div .packagetwo {
+  border-style: inset;
+  border-width: 3px;
+  border-color: whitesmoke;
+  background-clip: content-box;
+  background-color: whitesmoke;
+}
+
+.pbasic {
+  --padding: 17px;
+  padding: var(--padding);
+  box-shadow: inset 0 0 0 var(--padding) palegreen;
+}
+
+.paspirant {
+  --padding: 17px;
+  padding: var(--padding);
+  box-shadow: inset 0 0 0 var(--padding) wheat;
+}
+
+.pacolyte {
+  --padding: 17px;
+  padding: var(--padding);
+  box-shadow: inset 0 0 0 var(--padding) powderblue;
+}
+
+.pmagician {
+  --padding: 17px;
+  padding: var(--padding);
+  box-shadow: inset 0 0 0 var(--padding) plum;
+}
+
+.pmaster {
+  --padding: 17px;
+  padding: var(--padding);
+  box-shadow: inset 0 0 0 var(--padding) slateblue;
+}
+
+.reviews p {
+  font-size: 14px;
+}
